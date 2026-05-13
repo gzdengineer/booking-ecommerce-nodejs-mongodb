@@ -1,0 +1,28 @@
+{
+  "name": "shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.1",
+    "compare": "^2.0.0",
+    "connect-mongodb-session": "^3.1.1",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
+    "express": "^4.18.2",
+    "express-session": "^1.18.2",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.1",
+    "mysql2": "^3.1.2",
+    "pug": "^3.0.2",
+    "sequelize": "^6.29.1"
+  }
+}
